@@ -1,0 +1,118 @@
+:root { color-scheme: dark; }
+
+body {
+  font-family: system-ui, -apple-system, Segoe UI, sans-serif;
+  line-height: 1.6;
+  max-width: 720px;
+  margin: 2rem auto;
+  padding: 0 1.25rem;
+  background: #0f1115;
+  color: #e8eaed;
+}
+
+h1, h2 { line-height: 1.25; }
+h1 { font-size: 1.6rem; }
+h2 { font-size: 1.1rem; margin-top: 2rem; }
+
+a { color: #7cb8ff; }
+
+.muted { color: #9aa0a6; font-size: 0.9rem; }
+
+hr {
+  border: none;
+  border-top: 1px solid #2a2f38;
+  margin: 2rem 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+th, td {
+  text-align: left;
+  padding: 0.5rem 0.4rem;
+  border-bottom: 1px solid #2a2f38;
+  vertical-align: top;
+}
+
+.hub {
+  max-width: 520px;
+  text-align: center;
+  margin: 3rem auto;
+}
+
+.hub h1 { font-size: 1.75rem; margin-bottom: 0.35rem; }
+
+.hub .tagline { margin-bottom: 2.5rem; }
+
+.picker {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.picker a {
+  display: block;
+  flex: 1 1 180px;
+  max-width: 220px;
+  padding: 1.35rem 1rem;
+  border: 1px solid #2a2f38;
+  border-radius: 12px;
+  text-decoration: none;
+  color: #e8eaed;
+  background: #161a22;
+  transition: border-color 0.15s, background 0.15s;
+}
+
+.picker a:hover {
+  border-color: #4a5568;
+  background: #1c2230;
+}
+
+.picker .label {
+  display: block;
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-bottom: 0.35rem;
+}
+
+.picker .hint {
+  display: block;
+  font-size: 0.85rem;
+  color: #9aa0a6;
+}
+
+.cards {
+  display: grid;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.card {
+  display: block;
+  padding: 1.25rem 1.1rem;
+  border: 1px solid #2a2f38;
+  border-radius: 12px;
+  text-decoration: none;
+  color: #e8eaed;
+  background: #161a22;
+}
+
+.card:hover { border-color: #4a5568; }
+
+.card .title { font-weight: 600; font-size: 1.05rem; }
+.card .desc { color: #9aa0a6; font-size: 0.9rem; margin-top: 0.35rem; }
+
+.stub {
+  padding: 1rem 1.1rem;
+  border: 1px dashed #3d4654;
+  border-radius: 8px;
+  background: #141820;
+  color: #9aa0a6;
+  font-style: italic;
+}
+
+.nav-top { margin-bottom: 1.5rem; }
